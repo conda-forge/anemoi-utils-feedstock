@@ -1,4 +1,4 @@
-{% set version = "0.5.9" %}
+{% set version = "0.5.12" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/anemoi-utils/anemoi_utils-{{ version }}.tar.gz
-  sha256: 8ae0eae22cb61e2dddf38762c3350ffa590c8e7f4227929387fcff757033a6af
+  sha256: d440bced8993c8158250b30054f0ec88f821fa93f8fca3491c6a60b6696cf9d5
 
 build:
   entry_points:

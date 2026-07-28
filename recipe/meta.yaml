@@ -30,6 +30,7 @@ requirements:
     - filelock
     - multiurl
     - numpy
+    - peekle
     - pydantic >=2.9
     - pydantic-settings >=2.14.1
     - python-dateutil

@@ -37,6 +37,17 @@ requirements:
     - pyyaml
     - rich
     - tqdm
+    # optional-dependencies.mlflow required by anemoi-training
+    - mlflow >=2.11.1
+    - requests
+    # optional-dependencies.provenance required by anemoi-training and anemoi-inference
+    - gitpython
+    - nvsmi
+    # optional-dependencies.text required by anemoi-inference
+    - termcolor
+    - wcwidth
+    # optional-dependencies.s3 == optional-dependencies.remote required by anemoi-datasets
+    - obstore
 
 test:
   imports:
